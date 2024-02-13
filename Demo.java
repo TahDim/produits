@@ -31,7 +31,7 @@ public class Demo {
 				while(resultset.next()) {
 					int rsIdUser = resultset.getInt(1);
 					String rsLogin = resultset.getString(2);
-					String rsPassword = resultset.getString("password");
+					String rsPassword = resultset.getString("passwor d");
 					int rsConnectionNumber = resultset.getInt("connectionNumber");
 					
 					System.out.printf("%d : %s %s - %d\n", rsIdUser, rsLogin, rsPassword, rsConnectionNumber);
